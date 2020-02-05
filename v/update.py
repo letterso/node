@@ -67,8 +67,7 @@ if __name__ == '__main__':
     url = []
     html = crawl(node_url_1)
     url_1 = parse_1(html)
-    for node in url_1:
-        url.append(node)
+    url.append(url_1)
 
     html = crawl(node_url_2)
     url_2 = parse_2(html)
